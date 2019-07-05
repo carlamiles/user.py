@@ -19,13 +19,11 @@ class User:
         other_user.account_balance += amount
         return self
         
-
 hakeem = User("prince hakeem", "onlyjuicesandberries@yahoo.com", "king")
 semmi = User("semmi", "iamtherealprince@gmail.com", "none")
 king = User("king jaffe joffer", "rullerofzamunda@comcast.net", "hakeem")
 
 hakeem.make_deposit(100).make_deposit(200).make_deposit(300).make_withdrawal(50).display_user_balance()
-
 
 semmi.make_deposit(25).make_deposit(35).make_withdrawal(30).make_withdrawal(40).display_user_balance()
 
